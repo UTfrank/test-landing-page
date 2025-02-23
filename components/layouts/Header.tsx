@@ -9,7 +9,7 @@ import card from "@/public/card.png";
 
 const Header = () => {
   return (
-    <header className="w-full lg:h-screen">
+    <header className="w-full">
       <Navbar />
       <MobileNav />
       <div className="w-full md:px-[72px] px-[26px] border flex flex-col lg:flex-row items-center justify-center ">
