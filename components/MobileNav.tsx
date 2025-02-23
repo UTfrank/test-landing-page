@@ -13,7 +13,7 @@ import Link from "next/link";
 const MobileNav = () => {
   return (
     <Sheet>
-      <SheetTrigger className="border flex justify-between px-[18px] py-4 w-full md:hidden">
+      <SheetTrigger className="border flex justify-between px-[18px] py-4 w-full lg:hidden">
         <Link
           href="/"
           className="flex items-center gap-x-[26px] font-plus-jakarta-sans mr-[134px]"
