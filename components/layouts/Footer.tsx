@@ -33,7 +33,7 @@ const Footer = () => {
           ))}
         </ul>
       </div>
-      <ul className="flex md:gap-x-10 gap-x-[30px] *:font-inter *:text-[#343434] *:text-base *:font-medium">
+      <ul className="flex md:gap-x-10 gap-x-[30px] *:font-inter *:text-[#343434] *:md:text-base *:text-[10px] *:font-medium">
           <li>
             <Link href="#">Demos</Link>
           </li>

@@ -34,7 +34,7 @@ const Navbar = () => {
       </div>
       <div className="flex flex-row items-center gap-x-5">
         <Link href="#">Sign In</Link>
-        <Button>Get Your Card</Button>
+        <Button variant="bold">Get Your Card</Button>
       </div>
     </nav>
   );
