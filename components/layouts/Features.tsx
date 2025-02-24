@@ -28,7 +28,7 @@ const data = [
 
 const Features = () => {
   return (
-    <div className="py-[94px] lg:px-[147px] max-[1128px]:!px-[57px] flex flex-col gap-y-[72px]">
+    <section className="py-[94px] lg:px-[147px] max-[1128px]:!px-[57px] flex flex-col gap-y-[72px]">
       <div className="flex md:flex-row flex-col md:justify-between w-full">
         <div className="lg:w-7/12">
           <div className="shadow-[10px_13px_32px_0px_#00000017] bg-white md:px-[25px] max-[1128px]:!px-5 px-[14px] md:py-[37px] py-5 rounded-lg flex gap-y-[49px] flex-col relative">
@@ -145,7 +145,7 @@ const Features = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

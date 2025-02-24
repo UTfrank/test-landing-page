@@ -27,7 +27,7 @@ const data = [
 
 const WhyChoose = () => {
   return (
-    <div className="bg-[#212121] py-[66px] lg:px-[72px] md:px-[20px] px-7 flex md:flex-row flex-col">
+    <section className="bg-[#212121] py-[66px] lg:px-[72px] md:px-[20px] px-7 flex md:flex-row flex-col">
       {data.map((item) => (
         <div
           key={item.id}
@@ -46,7 +46,7 @@ const WhyChoose = () => {
           </p>
         </div>
       ))}
-    </div>
+    </section>
   );
 };
 

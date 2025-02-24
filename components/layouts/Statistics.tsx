@@ -22,7 +22,7 @@ const data = [
 
 const Statistics = () => {
   return (
-    <div className="w-full flex flex-col justify-center items-center gap-y-10 bg-[#DDF472] py-[53px]">
+    <section className="w-full flex flex-col justify-center items-center gap-y-10 bg-[#DDF472] py-[53px]">
       <h4 className="text-center text-[#232323] text-3xl font-bold leading-normal font-plus-jakarta-sans">
         Join millions getting secured payment
       </h4>
@@ -41,7 +41,7 @@ const Statistics = () => {
           </div>
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 

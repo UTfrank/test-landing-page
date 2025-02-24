@@ -21,7 +21,7 @@ const data = [
 
 const GetStarted = () => {
   return (
-    <div className="bg-white px-[68px] py-[75px] md:grid grid-cols-12 grid-rows-1">
+    <section className="bg-white px-[68px] py-[75px] md:grid grid-cols-12 grid-rows-1">
       <div className="col-span-4 flex flex-col gap-y-[30px]">
         <div className="flex flex-col gap-y-[19px]">
           <h4 className="text-[#2E2E2E] text-[27px] font-bold font-plus-jakarta-sans">
@@ -58,7 +58,7 @@ const GetStarted = () => {
           </div>
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 
