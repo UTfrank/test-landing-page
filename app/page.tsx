@@ -1,5 +1,6 @@
 import Features from "@/components/layouts/Features";
 import Header from "@/components/layouts/Header";
+import Statistics from "@/components/layouts/Statistics";
 import WhyChoose from "@/components/layouts/WhyChoose";
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
       <Header />
       <WhyChoose />
       <Features />
+      <Statistics />
     </main>
   );
 }
