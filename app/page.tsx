@@ -1,4 +1,5 @@
 import Features from "@/components/layouts/Features";
+import Footer from "@/components/layouts/Footer";
 import GetStarted from "@/components/layouts/GetStarted";
 import Header from "@/components/layouts/Header";
 import Statistics from "@/components/layouts/Statistics";
@@ -12,6 +13,7 @@ export default function Home() {
       <Features />
       <Statistics />
       <GetStarted />
+      <Footer />
     </main>
   );
 }
